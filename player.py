@@ -18,7 +18,7 @@ class Player(pygame.sprite.Sprite):
         self.image = self.frames[self.state][self.frame_index]
 
         #rects
-        self.rect = self.image.get_frect(topleft=pos)
+        self.rect = self.image.get_rect(topleft=pos)
         self.hitbox_rect = self.rect.inflate(-90, -60)
 
         #particles

@@ -149,7 +149,7 @@ class Shell(pygame.sprite.Sprite):
         self.frame_index =  0
         self.state = 'idle'
         self.image = self.frames[self.state][self.frame_index]
-        self.rect = self.image.get_frect(topleft=(pos[0], pos[1] + 15))
+        self.rect = self.image.get_rect(topleft=(pos[0], pos[1] + 15))
         self.old_rect = self.rect.copy()
         self.z = Z_LAYERS['layer1']
         self.player = player
@@ -193,7 +193,7 @@ class Pearl(pygame.sprite.Sprite):
         self.pearl = True
         super().__init__(groups)
         self.image = surf
-        self.rect = self.image.get_frect(center=pos + vector(50  * direction,0))
+        self.rect = self.image.get_rect(center=pos + vector(50  * direction,0))
         self.direction = direction
         self.speed = speed*1.5
         self.z = Z_LAYERS['layer1']
