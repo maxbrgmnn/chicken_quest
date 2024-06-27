@@ -7,7 +7,7 @@
   <image source="../Graphics/enemie tileset pre.png" width="640" height="640"/>
  </tileset>
  <tileset firstgid="501" name="items" tilewidth="64" tileheight="64" tilecount="6" columns="2">
-  <image source="C:/Users/alway/Downloads/Super-Pirate-World-main/Super-Pirate-World-main/graphics/tilesets/items.png" width="128" height="192"/>
+  <image source="../Graphics/items.png" width="128" height="192"/>
  </tileset>
  <layer id="1" name="Behind" width="120" height="72">
   <data encoding="csv">

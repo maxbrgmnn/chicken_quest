@@ -94,7 +94,7 @@
             "scaleInDock": 1
         }
     },
-    "last.imagePath": "C:/Users/alway/Downloads/Super-Pirate-World-main/Super-Pirate-World-main/graphics/tilesets",
+    "last.imagePath": "../Graphics",
     "map.height": 20,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 64,
